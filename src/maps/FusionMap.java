@@ -24,14 +24,13 @@ public class FusionMap {
 		Iterator<Integer> keysIte2 = map2.keySet().iterator();
 		Iterator<String> valuesIte2 = map2.values().iterator();
 
-		
-		while(keysIte.hasNext() && valuesIte.hasNext() ) {
+		while (keysIte.hasNext() && valuesIte.hasNext()) {
 			map3.put(keysIte.next(), valuesIte.next());
 		}
-		while(keysIte2.hasNext() && valuesIte2.hasNext() ) {
+		while (keysIte2.hasNext() && valuesIte2.hasNext()) {
 			map3.put(keysIte2.next(), valuesIte2.next());
 		}
-		System.out.println(map3);		
+		System.out.println(map3);
 
 	}
 
