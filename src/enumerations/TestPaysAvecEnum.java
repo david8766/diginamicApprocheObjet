@@ -33,10 +33,10 @@ public class TestPaysAvecEnum {
 				totO += 1;
 				break;
 			case "Amérique":
-				totAs += 1;
+				totAm += 1;
 				break;
 			case "Afrique":
-				totAs += 1;
+				totAf += 1;
 				break;
 			}
 			System.out.println(pays.toString());
